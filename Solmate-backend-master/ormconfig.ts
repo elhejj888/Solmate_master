@@ -9,9 +9,7 @@ const ormconfig: ConnectionOptions = {
   database: 'default2',
   synchronize: true,
   logging: true,
-  entities: ['src/entity/Transactions.ts'], // Adjust the path as needed
-  migrations: ['src/migrations/**/*.ts'], // Adjust the path as needed
-  subscribers: ['src/subscribers/**/*.ts'], // Adjust the path as needed
+  entities: ['src/entity/Transactions.ts'], 
 };
 
 export = ormconfig;

@@ -17,7 +17,7 @@ createConnection().then(() => {
     const app = express();
     app.use(bodyParser.json());
     app.use(cors());
-    app.use('/', router); // Use app.use() instead of app.set()
+    app.use('/', router);
 
     app.listen(PORT_NUMBER, () => {
         console.log(`Solmate Presale API has started on ${PORT_NUMBER} port.`);

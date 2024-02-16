@@ -43,7 +43,7 @@ export const getPresaleInfo = async function (req: Request, res: Response, next:
         })
 }
 export const test = async function (req,res) {
-    res.send("wallah");
+    res.send("getTest");
     
 }
 export const getMyTokenSaleInfo = async function (req: Request, res: Response, next: NextFunction) {
